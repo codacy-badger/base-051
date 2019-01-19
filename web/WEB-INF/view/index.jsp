@@ -2,12 +2,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
   <head>
-    <title>$Title$</title>
-    <link rel="stylesheet" href="<c:url value="/res/css/main.css" /> ">
+    <title> Base-051 </title>
+    <link rel="stylesheet" href="<c:url value="/res/css/global-dark.css" /> ">
   </head>
   <body>
 
-  It works! ${name}
+
+
+  INDEX ${name}
 
   </body>
 </html>

@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1200px) {
+    .step-wizard li {
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .d-scroll {
+        max-height: 640px;
+    }
+
+    .authentication-form {
+        padding: 3rem;
+    }
+}
+
+@media (min-width:769px) {
+    .ranges {
+        margin: 7px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timeline.timeline {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .timeline.timeline .timeline-item {
+        padding-left: 72px;
+        padding-right: 0;
+    }
+
+    .timeline.timeline .timeline-item.timeline-item-right,
+    .timeline.timeline .timeline-item:nth-of-type(even):not(.timeline-item-left) {
+        padding-left: 72px;
+        padding-right: 0;
+    }
+
+    .timeline.timeline .timeline-item .timeline-event {
+        width: 100%;
+    }
+
+    .timeline.timeline:before {
+        left: 42px;
+        width: 0;
+        margin-left: -1px;
+    }
+
+    .timeline.timeline .timeline-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .timeline.timeline .timeline-item:nth-of-type(even) {
+        margin-top: 0;
+    }
+
+    .timeline.timeline .timeline-item > .timeline-event {
+        float: right !important;
+    }
+
+    .timeline.timeline .timeline-item > .timeline-event:before,
+    .timeline.timeline .timeline-item > .timeline-event:after {
+        right: auto !important;
+        border-left-width: 0 !important;
+    }
+
+    .timeline.timeline .timeline-item > .timeline-event:before {
+        left: -15px !important;
+        border-right-width: 15px !important;
+    }
+
+    .timeline.timeline .timeline-item > .timeline-event:after {
+        left: -14px !important;
+        border-right-width: 14px !important;
+    }
+
+    .timeline.timeline .timeline-item > .timeline-point {
+        transform: translateX(-50%);
+        left: 42px !important;
+        margin-left: 0;
+    }
+
+    .timeline.timeline .timeline-label {
+        transform: translateX(-50%);
+        margin: 0 0 20px 42px;
+    }
+
+    .timeline.timeline .timeline-label + .timeline-item + .timeline-item {
+        margin-top: 0;
+    }
+
+    .timeline .time-right {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+    .step-wizard li {
+        width: 25%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container-fluid {
+        padding: 15px;
+    }
+
+    .content-inner {
+        margin-left: 0 !important;
+    }
+
+    .page-header, .page-header-2 {
+        padding: 20px 15px;
+    }
+
+    .d-scroll {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 572px) {
+    .authentication-form {
+        width: 100%;
+        padding: 3rem;
+    }
+}
+

@@ -2,6 +2,7 @@ package com.guysfromlab.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -15,4 +16,10 @@ public class HomeController {
         mav.addObject("name", 50);
         return mav;
     }
+
+    @GetMapping("tmp")
+    public ModelAndView tmp(String name) {
+        return new ModelAndView(name);
+    }
 }
+
