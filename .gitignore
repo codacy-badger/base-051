@@ -1,0 +1,22 @@
+#IntelJ
+.idea/
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Tokens ignore
+src/com/guysfromlab/Token.java
+out/
+logs.log
+
+res/META-INF/context.xml
