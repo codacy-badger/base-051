@@ -15,4 +15,5 @@ public class HomeController {
         mav.addObject("name", 50);
         return mav;
     }
+
 }
